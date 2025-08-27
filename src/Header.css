@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+  background-color: #383c42;
+  margin: 0px;
+  /* height: 4vw; */
+}
+.SiteNameContainer {
+  justify-content: flex-start;
+  padding-left: 15px;
+}
+
+.SiteName {
+  color: yellow;
+
+  font-size: 20px; /* calc(15px + 2vmin); */
+  padding: 5px;
+}
+
+.navContainer {
+  margin-right: 10px;
+}
+.logo {
+  width: 200px;
+}
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+nav li a {
+  color: #1ed6ff;
+  text-transform: uppercase;
+  text-decoration: none;
+}

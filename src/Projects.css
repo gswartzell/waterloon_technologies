@@ -1,0 +1,11 @@
+.projectsContainer {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.containerTitle {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
