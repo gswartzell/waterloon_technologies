@@ -1,0 +1,42 @@
+{
+  "app": {
+    "appId": "d1c4bspi8qj33t",
+    "appArn": "arn:aws:amplify:us-east-1:211125625922:apps/d1c4bspi8qj33t",
+    "name": "waterloontechnologies",
+    "tags": {},
+    "repository": "https://github.com/gswartzell/waterloon_technologies",
+    "platform": "WEB",
+    "createTime": "2024-07-17T00:23:20.539000+00:00",
+    "updateTime": "2025-08-27T20:50:26.643000+00:00",
+    "environmentVariables": {},
+    "defaultDomain": "d1c4bspi8qj33t.amplifyapp.com",
+    "enableBranchAutoBuild": false,
+    "enableBranchAutoDeletion": false,
+    "enableBasicAuth": false,
+    "customRules": [
+      {
+        "source": "/<*>",
+        "target": "/index.html",
+        "status": "404-200"
+      },
+      {
+        "source": "</^[^.]+$|\\.(?!(css|gif|ico|jpg|js|png|txt|svg|woff|ttf|map|json)$)([^.]+$)/>",
+        "target": "/index.html",
+        "status": "200"
+      }
+    ],
+    "productionBranch": {
+      "lastDeployTime": "2025-04-25T02:25:15.623000+00:00",
+      "status": "SUCCEED",
+      "branchName": "main"
+    },
+    "buildSpec": "version: 1\nfrontend:\n  phases:\n    preBuild:\n      commands:\n        - npm install\n    build:\n      commands:\n        - npm run build\n  artifacts:\n    baseDirectory: build\n    files:\n      - '**/*'\n  cache:\n    paths:\n      - node_modules/**/*\n",
+    "customHeaders": "",
+    "enableAutoBranchCreation": false,
+    "repositoryCloneMethod": "TOKEN",
+    "cacheConfig": {
+      "type": "AMPLIFY_MANAGED"
+    },
+    "webhookCreateTime": "2025-08-27T20:50:26.591000+00:00"
+  }
+}
