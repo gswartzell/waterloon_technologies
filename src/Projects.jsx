@@ -9,8 +9,8 @@ const Projects = () => {
       Here is a list of the projects we are working on:
       <ul>
         <li>
-          <Link to="/capaoga">Capaoga</Link> - a website for a small counseling
-          office
+          <a href="https://master.dazc93nkkhjgy.amplifyapp.com/">Capaoga</a> - a
+          website for a small counseling office
         </li>
         <li>Code Coach - we website for development coaching</li>
       </ul>
