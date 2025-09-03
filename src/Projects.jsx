@@ -13,7 +13,7 @@ const Projects = () => {
           office
         </li>
         <li>
-          <Link to="/capaoga">Link</Link>
+          <Link to="/capaoga">This is a link via Link</Link>
         </li>
         <li>Code Coach - we website for development coaching</li>
       </ul>
