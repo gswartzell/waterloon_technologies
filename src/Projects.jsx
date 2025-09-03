@@ -12,6 +12,9 @@ const Projects = () => {
           <a href="/capaoga">Capaoga</a> - a website for a small counseling
           office
         </li>
+        <li>
+          <Link to="/capaoga">Link</Link>
+        </li>
         <li>Code Coach - we website for development coaching</li>
       </ul>
     </div>
