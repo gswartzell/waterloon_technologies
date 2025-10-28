@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "./Screenshot 2024-07-17 at 1.50.16 PM.png";
+import logo from "./logo.png";
 
 const Navbar = ({ siteName }) => {
   const [menuOpen, setMenuOpen] = useState(false);

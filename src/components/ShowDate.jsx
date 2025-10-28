@@ -1,5 +1,3 @@
-import React from "react";
-
 const ShowDate = () => {
   let newDate = new Date();
   let date = newDate.getDate();
