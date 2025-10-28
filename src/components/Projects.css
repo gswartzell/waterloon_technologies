@@ -4,8 +4,8 @@
   align-items: center;
   flex-direction: column;
 }
-.containerTitle {
-  background-color: black;
-  color: white;
-  width: 100%;
+.contentTitle {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
 }

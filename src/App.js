@@ -1,13 +1,23 @@
+import { Outlet, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Header from "./Header";
-import Content from "./Content";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Header siteName="Waterloon Technologies" />
-      <Content />
+      <Navbar />
+      <Outlet />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
   );
