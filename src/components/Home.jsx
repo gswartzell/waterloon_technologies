@@ -9,7 +9,7 @@ const Home = () => {
         <div className="contentDescription">
           Here is a list of some of the projects we are working on at this time.
           All are react-based websites. Some have nodejs backends to provide
-          data or access to private / paid content.
+          data or access to private / paid content...
         </div>
         <ul className="projectList">
           <li className="projectItem">
