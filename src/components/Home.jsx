@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 
 const Home = () => {
+  var password = "SomePassword";
   return (
     <div>
       <div className="content">
