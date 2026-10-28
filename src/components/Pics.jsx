@@ -18,6 +18,7 @@ const Pics = () => {
       <br />
       <a href="/photos7.zip">Download Photos 7</a>
       <br />
+      <br />
     </div>
   );
 };
