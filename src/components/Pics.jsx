@@ -3,7 +3,7 @@ const Pics = () => {
     <div>
       Click the link below to download the photos: <br />
       <a
-        href="/photo1.zip"
+        href="/photos1.zip"
         download="photos1.zip"
         target="_blank"
         rel="noreferrer"
@@ -12,7 +12,7 @@ const Pics = () => {
       </a>
       <br />
       <a
-        href="/photo2.zip"
+        href="/photos2.zip"
         download="photos2.zip"
         target="_blank"
         rel="noreferrer"
@@ -21,7 +21,7 @@ const Pics = () => {
       </a>
       <br />
       <a
-        href="/photo3.zip"
+        href="/photos3.zip"
         download="photos3.zip"
         target="_blank"
         rel="noreferrer"
@@ -30,7 +30,7 @@ const Pics = () => {
       </a>
       <br />
       <a
-        href="/photo4.zip"
+        href="/photos4.zip"
         download="photos4.zip"
         target="_blank"
         rel="noreferrer"
@@ -39,7 +39,7 @@ const Pics = () => {
       </a>
       <br />
       <a
-        href="/photo5.zip"
+        href="/photos5.zip"
         download="photos5.zip"
         target="_blank"
         rel="noreferrer"
@@ -48,7 +48,7 @@ const Pics = () => {
       </a>
       <br />
       <a
-        href="/photo6.zip"
+        href="/photos6.zip"
         download="photos6.zip"
         target="_blank"
         rel="noreferrer"
@@ -57,7 +57,7 @@ const Pics = () => {
       </a>
       <br />
       <a
-        href="/photo7.zip"
+        href="/photos7.zip"
         download="photos7.zip"
         target="_blank"
         rel="noreferrer"
