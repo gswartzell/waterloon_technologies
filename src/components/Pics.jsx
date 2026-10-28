@@ -1,13 +1,3 @@
-import React from "react";
-import Photo1 from "../images/photos1.zip";
-import Photo2 from "../images/photos2.zip";
-import Photo3 from "../images/photos3.zip";
-import Photo4 from "../images/photos4.zip";
-import Photo5 from "../images/photos5.zip";
-import Photo6 from "../images/photos6.zip";
-import Photo7 from "../images/photos7.zip";
-
-// asdf
 const Pics = () => {
   return (
     <div>
