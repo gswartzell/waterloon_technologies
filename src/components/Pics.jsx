@@ -12,31 +12,31 @@ const Pics = () => {
   return (
     <div>
       Click the link below to download the photos: <br />
-      <a href={Photo1} download="photos1.zip">
+      <a href={Photo1} download="photos1.zip" target="_blank" rel="noreferrer">
         Download Photos 1
       </a>
       <br />
-      <a href={Photo2} download="photos2.zip">
+      <a href={Photo2} download="photos2.zip" target="_blank" rel="noreferrer">
         Download Photos 2
       </a>
       <br />
-      <a href={Photo3} download="photos3.zip">
+      <a href={Photo3} download="photos3.zip" target="_blank" rel="noreferrer">
         Download Photos 3
       </a>
       <br />
-      <a href={Photo4} download="photos4.zip">
+      <a href={Photo4} download="photos4.zip" target="_blank" rel="noreferrer">
         Download Photos 4
       </a>
       <br />
-      <a href={Photo5} download="photos5.zip">
+      <a href={Photo5} download="photos5.zip" target="_blank" rel="noreferrer">
         Download Photos 5
       </a>
       <br />
-      <a href={Photo6} download="photos6.zip">
+      <a href={Photo6} download="photos6.zip" target="_blank" rel="noreferrer">
         Download Photos 6
       </a>
       <br />
-      <a href={Photo7} download="photos7.zip">
+      <a href={Photo7} download="photos7.zip" target="_blank" rel="noreferrer">
         Download Photos 7
       </a>
       <br />
